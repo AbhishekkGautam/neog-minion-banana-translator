@@ -5,7 +5,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var outputDiv = document.querySelector("#output-div");
 
 function urlWithText(text) {
-	return `https://api.funtranslations.com/translate/minion.json?text=${text}`
+	return `${serverURL}?text=${text}`
 }
 
 function errorHandler(error) {
