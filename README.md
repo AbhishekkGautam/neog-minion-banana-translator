@@ -1,2 +1,2 @@
 # Speak Like Minions
- This is a translation app to convert english to banana language.
+ This is a translation app to convert English to the Banana language.
