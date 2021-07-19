@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #FDE047;
+  --secondary-color:#FACC15;
+  --light-yellow: #FEFCE8;
+  --dark-yellow:#854D0E
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  background-color: var(--light-yellow);
+}
+
+/* container */
+.container {
+  padding: 0rem 1rem;
+}
+.container-center {
+  max-width: 320px;
+  margin: auto;
+  
+}
+
+/* header */
+.hero {
+  padding: 2rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 420px;
+  height: 180px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  color: var(--dark-yellow);
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .hero-img {
+    max-width: 320px;
+	height: 150px;
+  }
+  .hero {
+    padding-top: 3rem;
+  }
+  .container-center{
+	  max-width: 280px;
+  }
+}
+
+
+.container textarea{
+	width: 100%;
+	min-height: 110px;
+}
+
+.container button{
+	padding: 0.6rem 1.2rem;
+	background-color: var(--primary-color);
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover{
+	background-color: var(--secondary-color);
+}
+
+.outputDiv{
+	width: 100%;
+	min-height: 110px;
+	background-color: white;
+	margin-top: 2rem;
+}
