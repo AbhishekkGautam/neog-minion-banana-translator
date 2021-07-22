@@ -87,6 +87,7 @@ body {
   margin-top: 0.8rem;
   border: none;
   cursor: pointer;
+  font-family: "DM Sans", sans-serif;
 }
 
 .container button:hover{
