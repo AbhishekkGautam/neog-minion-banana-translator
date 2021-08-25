@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #FDE047;
-  --secondary-color:#FACC15;
-  --light-yellow: #FEFCE8;
-  --dark-yellow:#854D0E;
-  --output-color:#fdf9c7;
+  --primary-color: #fde047;
+  --secondary-color: #facc15;
+  --light-yellow: #fefce8;
+  --dark-yellow: #854d0e;
+  --output-color: #fdf9c7;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 .container-center {
   max-width: 320px;
   margin: auto;
-  
 }
 
 /* section */
@@ -55,34 +54,31 @@ body {
   text-align: center;
 }
 
-
 @media only screen and (max-width: 520px) {
   .hero-img {
     max-width: 320px;
-	height: 150px;
+    height: 150px;
   }
   .hero {
     padding-top: 2rem;
-	padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
-  .section{
-	  padding: 0rem 0.5rem;
+  .section {
+    padding: 0rem 0.5rem;
   }
-
 }
 
-
-.container textarea{
-	width: 90%;
-	min-height: 90px;
-	padding: 1rem;
-	font-family: "DM Sans", sans-serif;
-	border: 1px solid var(--dark-yellow);
+.container textarea {
+  width: 90%;
+  min-height: 90px;
+  padding: 1rem;
+  font-family: "DM Sans", sans-serif;
+  border: 1px solid var(--dark-yellow);
 }
 
-.container button{
-	padding: 0.6rem 1.2rem;
-	background-color: var(--primary-color);
+.container button {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
   border-radius: 0.3rem;
   margin-top: 0.8rem;
   border: none;
@@ -90,24 +86,46 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-.container button:hover{
-	background-color: var(--secondary-color);
+.container button:hover {
+  background-color: var(--secondary-color);
 }
 
-.outputDiv{
-	width: 90%;
-	min-height: 130px;
-	background-color: var(--output-color);
-	margin-top: 2rem;
-	margin-bottom: 3rem;
-	padding: 1rem;
+.outputDiv {
+  width: 90%;
+  min-height: 130px;
+  background-color: var(--output-color);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
-.outputDiv p{
-	margin-top: 0rem;
-	color:var(--dark-yellow);
+.outputDiv p {
+  margin-top: 0rem;
+  color: var(--dark-yellow);
 }
 
-.outputDiv hr{
-	border: 1px solid var(--primary-color);
+.outputDiv hr {
+  border: 1px solid var(--primary-color);
+}
+
+.footer {
+  width: 90%;
+  margin-top: 0rem;
+  text-align: center;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer a {
+  color: dodgerblue;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.8rem;
 }
