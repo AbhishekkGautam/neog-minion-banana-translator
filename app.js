@@ -9,7 +9,7 @@ function urlWithText(text) {
 }
 
 function errorHandler(error) {
-  outputDiv.innerHTML = `<p style="color: red;">Some error occured: ${error.message}</p>
+  outputDiv.innerHTML = `<p style="color: red;">Error occured: ${error.message}</p>
   `;
 }
 
